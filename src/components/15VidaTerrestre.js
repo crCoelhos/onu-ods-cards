@@ -7,6 +7,7 @@ const Svg15VidaTerrestre = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
+    <title>15 - VIDA TERRESTRE</title>
     <path
       fill="#56c02b"
       d="M-1.08-1.08h722.16v722.16H-1.08z"

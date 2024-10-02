@@ -7,6 +7,7 @@ const Svg11CidadesEComunidadesSustentaveis = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
+    <title>11 - CIDADES E COMUNIDADES SUSTENTÁVEIS</title>
     <defs>
       <style>
         {".11-cidades-e-comunidades-sustentaveis_svg__cls-2{fill:#fff}"}

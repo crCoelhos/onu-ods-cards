@@ -7,6 +7,7 @@ const Svg17ParceriasEMeiosDeImplementacao = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
+    <title>17 - PARCERIAS E MEIOS DE IMPLEMENTAÇÃO</title>
     <defs>
       <style>
         {".17-parcerias-e-meios-de-implementacao_svg__cls-2{fill:#fff}"}

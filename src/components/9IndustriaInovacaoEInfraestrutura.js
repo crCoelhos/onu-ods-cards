@@ -7,6 +7,7 @@ const Svg9IndustriaInovacaoEInfraestrutura = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
+    <title>9 - INDDUSTRIA, INOVAÇÃO E INFRAESTRUTURA</title>
     <path
       fill="#fd6925"
       d="M-1.08-1.08h722.16v722.16H-1.08z"

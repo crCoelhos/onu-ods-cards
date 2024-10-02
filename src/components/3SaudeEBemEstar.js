@@ -7,6 +7,7 @@ const Svg3SaudeEBemEstar = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
+    <title>3 - SAÚDE E BEM ESTAR</title>
     <defs>
       <style>{".3-saude-e-bem-estar_svg__cls-2{fill:#fff}"}</style>
     </defs>

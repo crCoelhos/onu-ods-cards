@@ -7,6 +7,7 @@ const Svg1ErradicacaoDaPobreza = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
+    <title>1 - ERRADICAÇÃO DA POBREZA</title>
     <defs>
       <style>{".1-erradicacao-da-pobreza_svg__cls-2{fill:#fff}"}</style>
     </defs>

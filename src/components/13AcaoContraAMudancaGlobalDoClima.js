@@ -7,6 +7,7 @@ const Svg13AcaoContraAMudancaGlobalDoClima = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
+    <title>13 - AÇÃO CONTRA A MUDANÇA GLOBAL DO CLIMA</title>
     <path
       fill="#3f7e44"
       d="M-1.08 720.1V-1.08H720.1V720.1z"

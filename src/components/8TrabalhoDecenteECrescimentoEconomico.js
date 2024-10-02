@@ -7,6 +7,7 @@ const Svg8TrabalhoDecenteECrescimentoEconomico = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
+    <title>8 - TRABALHO DECENTE E CRESCIMENTO ECONÔMICO</title>
     <defs>
       <style>
         {".8-trabalho-decente-e-crescimento-economico_svg__cls-2{fill:#fff}"}

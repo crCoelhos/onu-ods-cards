@@ -7,6 +7,8 @@ const Svg4EducacaoDeQualidade = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
+    <title>4 - EDUCAÇÃO DE QUALIDADE</title>
+
     <defs>
       <style>{".4-educacao-de-qualidade_svg__cls-2{fill:#fff}"}</style>
     </defs>

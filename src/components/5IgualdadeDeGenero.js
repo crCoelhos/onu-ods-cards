@@ -7,6 +7,7 @@ const Svg5IgualdadeDeGenero = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
+    <title>5 - IGUALDADE DE GÊNERO</title>
     <defs>
       <style>{".5-igualdade-de-genero_svg__cls-2{fill:#fff}"}</style>
     </defs>

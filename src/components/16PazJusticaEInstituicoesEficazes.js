@@ -7,6 +7,7 @@ const Svg16PazJusticaEInstituicoesEficazes = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
+    <title>16 - PAZ, JUSTIÇA E INSTITUIÇÕES EFICAZES</title>
     <defs>
       <style>
         {".16-paz-justica-e-instituicoes-eficazes_svg__cls-2{fill:#fff}"}
