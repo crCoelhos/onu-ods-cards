@@ -23,70 +23,70 @@ interface SvgProps extends React.SVGProps<SVGSVGElement> {
   showTitle?: boolean;
 }
 
-export const OdsIcon1: React.FC<SvgProps> = (props) => {
+export const OdsIcon1: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg1ErradicacaoDaPobreza, props);
 };
 
-export const OdsIcon2: React.FC<SvgProps> = (props) => {
+export const OdsIcon2: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg2FomeZero, props);
 };
 
-export const OdsIcon3: React.FC<SvgProps> = (props) => {
+export const OdsIcon3: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg3SaudeEBemEstar, props);
 };
 
-export const OdsIcon4: React.FC<SvgProps> = (props) => {
+export const OdsIcon4: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg4EducacaoDeQualidade, props);
 };
 
-export const OdsIcon5: React.FC<SvgProps> = (props) => {
+export const OdsIcon5: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg5IgualdadeDeGenero, props);
 };
 
-export const OdsIcon6: React.FC<SvgProps> = (props) => {
+export const OdsIcon6: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg6AguaLimpaESaneamento, props);
 };
 
-export const OdsIcon7: React.FC<SvgProps> = (props) => {
+export const OdsIcon7: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg7EnergiaLimpaEAccessivel, props);
 };
 
-export const OdsIcon8: React.FC<SvgProps> = (props) => {
+export const OdsIcon8: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg8TrabalhoDecenteEConomia, props);
 };
 
-export const OdsIcon9: React.FC<SvgProps> = (props) => {
+export const OdsIcon9: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg9IndustriaInovacaoEInfraestrutura, props);
 };
 
-export const OdsIcon10: React.FC<SvgProps> = (props) => {
+export const OdsIcon10: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg10ReducaoDasDesigualdades, props);
 };
 
-export const OdsIcon11: React.FC<SvgProps> = (props) => {
+export const OdsIcon11: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg11CidadesESComunidadesSustentaveis, props);
 };
 
-export const OdsIcon12: React.FC<SvgProps> = (props) => {
+export const OdsIcon12: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg12ConsumoEProducaoResponsaveis, props);
 };
 
-export const OdsIcon13: React.FC<SvgProps> = (props) => {
+export const OdsIcon13: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg13AcaoContraMudancaGlobalClima, props);
 };
 
-export const OdsIcon14: React.FC<SvgProps> = (props) => {
+export const OdsIcon14: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg14VidaNaAgua, props);
 };
 
-export const OdsIcon15: React.FC<SvgProps> = (props) => {
+export const OdsIcon15: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg15VidaTerrestre, props);
 };
 
-export const OdsIcon16: React.FC<SvgProps> = (props) => {
+export const OdsIcon16: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg16PazJusticaInstituicoesEficazes, props);
 };
 
-export const OdsIcon17: React.FC<SvgProps> = (props) => {
+export const OdsIcon17: React.FC<SvgProps> = (props: SvgProps) => {
   return React.createElement(Svg17ParceriasEMeiosDeImplementacao, props);
 };
