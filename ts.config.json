@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "jsx": "react",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": "./",
+        "paths": {
+            "un-ods-icons": [
+                "node_modules/un-ods-icons/src/index.d.ts"
+            ],
+            "types": [
+                "node"
+            ]
+        },
+        "include": [
+            "src/**/*",
+            "un-ods-icons/**/*"
+        ]
+    }
+}
