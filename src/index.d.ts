@@ -1,4 +1,8 @@
 declare module "un-ods-icons" {
+  import { FunctionComponent, SVGProps } from "react";
+
+
+  
   export const OdsIcon1: React.FC<React.SVGProps<SVGSVGElement>>;
   export const OdsIcon2: React.FC<React.SVGProps<SVGSVGElement>>;
   export const OdsIcon3: React.FC<React.SVGProps<SVGSVGElement>>;
