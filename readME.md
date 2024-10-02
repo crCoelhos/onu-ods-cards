@@ -7,13 +7,13 @@ Esta é uma biblioteca de ícones para os Objetivos de Desenvolvimento Sustentá
 Para instalar a biblioteca, use npm ou yarn:
 
 ```bash
-npm install un-ods-icons
+npm install un-ods-cards
 ```
 
 ou
 
 ```bash
-yarn install un-ods-icons
+yarn install un-ods-cards
 ```
 
 ## Uso
