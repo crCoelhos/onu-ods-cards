@@ -1,9 +1,5 @@
 {
     "compilerOptions": {
-        "typeRoots": [
-            "./node_modules/@types",
-            "./@types"
-        ],
         "target": "es6",
         "module": "commonjs",
         "jsx": "react",
@@ -14,15 +10,12 @@
         "baseUrl": "./",
         "paths": {
             "un-ods-icons": [
-                "node_modules/un-ods-icons/src/index.d.ts"
-            ],
-            "types": [
-                "node"
+                "node_modules/un-ods-icons/dist/index"
             ]
         },
         "include": [
             "src/**/*",
-            "un-ods-icons/**/*"
+            "node_modules/un-ods-icons/**/*"
         ]
     }
 }
