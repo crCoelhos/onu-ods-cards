@@ -7,13 +7,13 @@ Esta é uma biblioteca de ícones para os Objetivos de Desenvolvimento Sustentá
 Para instalar a biblioteca, use um package manager como npm ou yarn:
 
 ```bash
-npm install un-ods-cards
+npm install onu-ods-cards
 ```
 
 e
 
 ```bash
-yarn install un-ods-cards
+yarn install onu-ods-cards
 ```
 
 ## Uso
@@ -21,7 +21,7 @@ yarn install un-ods-cards
 Para usar o ícone em seu componente, você pode fazer a declaração no modelo convencional:
 
 ```tsx
-import { OdsCard1 } from "un-ods-cards";
+import { OdsCard1 } from "onu-ods-cards";
 
 const MeuComponenteExemplo = () => (
   <div>
