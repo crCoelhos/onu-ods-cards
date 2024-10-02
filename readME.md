@@ -66,8 +66,9 @@ const MeuComponenteExemplo = () => (
 export default MeuComponenteExemplo;
 ```
 
-| Propriedade | Tipo | Padrão | Descrição | Exemplo |
-|_______|______|_______|_______|__________________________|
+
+| Propriedade | Tipo  | Padrão  | Descrição | Exemplo |
+| ---- | ------ | --- | --------------- | --------------- |
 | size | number | 512 | Define o tamanho do ícone em pixels. | <OdsIcon1 size={128} /> |
-|showTitle | boolean | false | Se true, exibe o título do ícone como uma tag | <title>. <OdsIcon1 showTitle={true} /> |
+|showTitle | boolean | false | Se true, exibe o título do ícone como uma tag <title>. | <OdsIcon1 showTitle={true} /> |
 
