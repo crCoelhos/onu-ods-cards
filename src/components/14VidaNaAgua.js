@@ -1,10 +1,10 @@
 import * as React from "react";
-const Svg14VidaNaAgua = (props) => (
+const Svg14VidaNaAgua = ({ size = 512, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 720 720"
-    width="1em"
-    height="1em"
+    width={size}
+    height={size}
     {...props}
   >
     <path

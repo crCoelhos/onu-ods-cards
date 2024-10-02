@@ -1,10 +1,10 @@
 import * as React from "react";
-const Svg5IgualdadeDeGenero = (props) => (
+const Svg5IgualdadeDeGenero = ({ size = 512, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 720 720"
-    width="1em"
-    height="1em"
+    width={size}
+    height={size}
     {...props}
   >
     <defs>
