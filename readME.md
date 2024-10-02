@@ -4,13 +4,13 @@ Esta é uma biblioteca de ícones para os Objetivos de Desenvolvimento Sustentá
 
 ## Instalação
 
-Para instalar a biblioteca, use npm ou yarn:
+Para instalar a biblioteca, use um package manager como npm ou yarn:
 
 ```bash
 npm install un-ods-cards
 ```
 
-ou
+e
 
 ```bash
 yarn install un-ods-cards
@@ -23,17 +23,12 @@ Para usar o ícone em seu componente, você pode fazer a declaração no modelo 
 ```tsx
 import { OdsIcon1 } from "un-ods-cards";
 
-const MyComponent = () => (
+const MeuComponenteExemplo = () => (
   <div>
     <OdsIcon1 />
   </div>
 );
 
-export default MyComponent;
+export default MeuComponenteExemplo;
 ```
 
-```
-
-code <OdsIcon1 />
-
-```
