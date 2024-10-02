@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "main": "dist/index.js",
   "types": "index.d.ts",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
@@ -14,18 +15,25 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "tslib": "^2.7.0",
     "un-ods-icons": "file:"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "@babel/preset-env": "^7.25.4",
-    "@babel/preset-react": "^7.24.7",
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "@babel/preset-react": "^7.25.7",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.0",
     "@rollup/plugin-node-resolve": "^15.3.0",
     "@svgr/cli": "^8.1.0",
     "babel-cli": "^6.26.0",
-    "rollup": "^2.79.2",
-    "rollup-plugin-babel": "^4.4.0"
+    "rollup": "^4.24.0",
+    "rollup-plugin-inject": "^3.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.6.2"
   }
 }

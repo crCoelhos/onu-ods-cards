@@ -1,5 +1,11 @@
-import * as React from "react";
-const Svg1ErradicacaoDaPobreza = ({
+import React, { FC, SVGProps } from "react";
+
+interface SvgProps extends SVGProps<SVGSVGElement> {
+  size?: number;
+  showTitle?: boolean;
+}
+
+const Svg1ErradicacaoDaPobreza: FC<SvgProps> = ({
   size = 512,
   showTitle = false,
   ...props
