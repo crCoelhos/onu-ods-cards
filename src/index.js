@@ -1,0 +1,17 @@
+export { default as OdsIcon1 } from "./components/1ErradicacaoDaPobreza";
+export { default as OdsIcon2 } from "./components/2FomeZeroEAgriculturaSustentavel";
+export { default as OdsIcon3 } from "./components/3SaudeEBemEstar";
+export { default as OdsIcon4 } from "./components/4EducacaoDeQualidade";
+export { default as OdsIcon5 } from "./components/5IgualdadeDeGenero";
+export { default as OdsIcon6 } from "./components/6AguaPotavelESaneamento";
+export { default as OdsIcon7 } from "./components/7EnergiaLimpaEAcessivel";
+export { default as OdsIcon8 } from "./components/8TrabalhoDecenteECrescimentoEconomico";
+export { default as OdsIcon9 } from "./components/9IndustriaInovacaoEInfraestrutura";
+export { default as OdsIcon10 } from "./components/10ReducaoDasDesigualdades";
+export { default as OdsIcon11 } from "./components/11CidadesEComunidadesSustentaveis";
+export { default as OdsIcon12 } from "./components/12ConsumoEProducaoResponsaveis";
+export { default as OdsIcon13 } from "./components/13AcaoContraAMudancaGlobalDoClima";
+export { default as OdsIcon14 } from "./components/14VidaNaAgua";
+export { default as OdsIcon15 } from "./components/15VidaTerrestre";
+export { default as OdsIcon16 } from "./components/16PazJusticaEInstituicoesEficazes";
+export { default as OdsIcon17 } from "./components/17ParceriasEMeiosDeImplementacao";

@@ -1,0 +1,17 @@
+export { default as Svg1ErradicacaoDaPobreza } from "./1ErradicacaoDaPobreza";
+export { default as Svg10ReducaoDasDesigualdades } from "./10ReducaoDasDesigualdades";
+export { default as Svg11CidadesEComunidadesSustentaveis } from "./11CidadesEComunidadesSustentaveis";
+export { default as Svg12ConsumoEProducaoResponsaveis } from "./12ConsumoEProducaoResponsaveis";
+export { default as Svg13AcaoContraAMudancaGlobalDoClima } from "./13AcaoContraAMudancaGlobalDoClima";
+export { default as Svg14VidaNaAgua } from "./14VidaNaAgua";
+export { default as Svg15VidaTerrestre } from "./15VidaTerrestre";
+export { default as Svg16PazJusticaEInstituicoesEficazes } from "./16PazJusticaEInstituicoesEficazes";
+export { default as Svg17ParceriasEMeiosDeImplementacao } from "./17ParceriasEMeiosDeImplementacao";
+export { default as Svg2FomeZeroEAgriculturaSustentavel } from "./2FomeZeroEAgriculturaSustentavel";
+export { default as Svg3SaudeEBemEstar } from "./3SaudeEBemEstar";
+export { default as Svg4EducacaoDeQualidade } from "./4EducacaoDeQualidade";
+export { default as Svg5IgualdadeDeGenero } from "./5IgualdadeDeGenero";
+export { default as Svg6AguaPotavelESaneamento } from "./6AguaPotavelESaneamento";
+export { default as Svg7EnergiaLimpaEAcessivel } from "./7EnergiaLimpaEAcessivel";
+export { default as Svg8TrabalhoDecenteECrescimentoEconomico } from "./8TrabalhoDecenteECrescimentoEconomico";
+export { default as Svg9IndustriaInovacaoEInfraestrutura } from "./9IndustriaInovacaoEInfraestrutura";
