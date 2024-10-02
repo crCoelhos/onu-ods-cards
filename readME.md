@@ -1,6 +1,6 @@
 # Biblioteca de Ícones ODS
 
-Esta é uma biblioteca de ícones para os Objetivos de Desenvolvimento Sustentável (ODS) que pode ser facilmente utilizada em projetos React. Os ícones estão disponíveis como componentes SVG, permitindo fácil personalização e escalabilidade.
+Esta é uma biblioteca de ícones para os Objetivos de Desenvolvimento Sustentável (ODS) que pode ser facilmente utilizada em projetos React. Os cards estão disponíveis como componentes SVG, permitindo fácil personalização e escalabilidade.
 
 ## Instalação
 
@@ -31,3 +31,7 @@ const MeuComponenteExemplo = () => (
 
 export default MeuComponenteExemplo;
 ```
+
+| Propriedade | Tipo | Padrão | Descrição | Exemplo |
+| size | number | 512 | Define o tamanho do ícone em pixels. | <OdsIcon1 size={128} /> |
+|showTitle | boolean | false | Se true, exibe o título do ícone como uma tag | <title>. <OdsIcon1 showTitle={true} /> |
