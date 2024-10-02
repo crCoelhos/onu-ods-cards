@@ -1,5 +1,9 @@
 import * as React from "react";
-const Svg11CidadesEComunidadesSustentaveis = ({ size = 512, ...props }) => (
+const Svg11CidadesEComunidadesSustentaveis = ({
+  size = 512,
+  showTitle = false,
+  ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 720 720"
@@ -7,7 +11,7 @@ const Svg11CidadesEComunidadesSustentaveis = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
-    <title>11 - CIDADES E COMUNIDADES SUSTENTÁVEIS</title>
+    {showTitle && <title>11 - CIDADES E COMUNIDADES SUSTENTÁVEIS</title>}
     <defs>
       <style>
         {".11-cidades-e-comunidades-sustentaveis_svg__cls-2{fill:#fff}"}

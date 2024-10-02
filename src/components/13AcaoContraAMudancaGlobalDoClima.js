@@ -1,5 +1,9 @@
 import * as React from "react";
-const Svg13AcaoContraAMudancaGlobalDoClima = ({ size = 512, ...props }) => (
+const Svg13AcaoContraAMudancaGlobalDoClima = ({
+  size = 512,
+  showTitle = false,
+  ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 720 720"
@@ -7,7 +11,7 @@ const Svg13AcaoContraAMudancaGlobalDoClima = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
-    <title>13 - AÇÃO CONTRA A MUDANÇA GLOBAL DO CLIMA</title>
+    {showTitle && <title>13 - AÇÃO CONTRA A MUDANÇA GLOBAL DO CLIMA</title>}
     <path
       fill="#3f7e44"
       d="M-1.08 720.1V-1.08H720.1V720.1z"

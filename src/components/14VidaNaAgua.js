@@ -1,5 +1,5 @@
 import * as React from "react";
-const Svg14VidaNaAgua = ({ size = 512, ...props }) => (
+const Svg14VidaNaAgua = ({ size = 512, showTitle = false, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 720 720"
@@ -7,7 +7,7 @@ const Svg14VidaNaAgua = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
-    <title>14 - VIDA NA ÁGUA</title>
+    {showTitle && <title>14 - VIDA NA ÁGUA</title>}
     <path
       fill="#0a97d9"
       d="M-1.08-1.08h722.16v722.16H-1.08z"

@@ -1,5 +1,9 @@
 import * as React from "react";
-const Svg9IndustriaInovacaoEInfraestrutura = ({ size = 512, ...props }) => (
+const Svg9IndustriaInovacaoEInfraestrutura = ({
+  size = 512,
+  showTitle = false,
+  ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 720 720"
@@ -7,7 +11,7 @@ const Svg9IndustriaInovacaoEInfraestrutura = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
-    <title>9 - INDDUSTRIA, INOVAÇÃO E INFRAESTRUTURA</title>
+    {showTitle && <title>9 - INDDUSTRIA, INOVAÇÃO E INFRAESTRUTURA</title>}
     <path
       fill="#fd6925"
       d="M-1.08-1.08h722.16v722.16H-1.08z"

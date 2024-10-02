@@ -1,5 +1,5 @@
 import * as React from "react";
-const Svg7EnergiaLimpaEAcessivel = ({ size = 512, ...props }) => (
+const Svg7EnergiaLimpaEAcessivel = ({ size = 512, showTitle = false, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 720 720"
@@ -7,7 +7,7 @@ const Svg7EnergiaLimpaEAcessivel = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
-    <title>7 - ENEGIA LIMPA E ACESSÍVEL</title>
+    {showTitle && <title>7 - ENEGIA LIMPA E ACESSÍVEL</title>}
     <defs>
       <style>{".7-energia-limpa-e-acessivel_svg__cls-2{fill:#fff}"}</style>
     </defs>

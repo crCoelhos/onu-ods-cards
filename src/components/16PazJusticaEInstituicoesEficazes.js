@@ -1,5 +1,9 @@
 import * as React from "react";
-const Svg16PazJusticaEInstituicoesEficazes = ({ size = 512, ...props }) => (
+const Svg16PazJusticaEInstituicoesEficazes = ({
+  size = 512,
+  showTitle = false,
+  ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 720 720"
@@ -7,7 +11,7 @@ const Svg16PazJusticaEInstituicoesEficazes = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
-    <title>16 - PAZ, JUSTIÇA E INSTITUIÇÕES EFICAZES</title>
+    {showTitle && <title>16 - PAZ, JUSTIÇA E INSTITUIÇÕES EFICAZES</title>}
     <defs>
       <style>
         {".16-paz-justica-e-instituicoes-eficazes_svg__cls-2{fill:#fff}"}

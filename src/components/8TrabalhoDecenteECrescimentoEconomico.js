@@ -1,5 +1,9 @@
 import * as React from "react";
-const Svg8TrabalhoDecenteECrescimentoEconomico = ({ size = 512, ...props }) => (
+const Svg8TrabalhoDecenteECrescimentoEconomico = ({
+  size = 512,
+  showTitle = false,
+  ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 720 720"
@@ -7,7 +11,7 @@ const Svg8TrabalhoDecenteECrescimentoEconomico = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
-    <title>8 - TRABALHO DECENTE E CRESCIMENTO ECONÔMICO</title>
+    {showTitle && <title>8 - TRABALHO DECENTE E CRESCIMENTO ECONÔMICO</title>}
     <defs>
       <style>
         {".8-trabalho-decente-e-crescimento-economico_svg__cls-2{fill:#fff}"}

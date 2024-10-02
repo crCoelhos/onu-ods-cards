@@ -1,5 +1,5 @@
 import * as React from "react";
-const Svg5IgualdadeDeGenero = ({ size = 512, ...props }) => (
+const Svg5IgualdadeDeGenero = ({ size = 512, showTitle = false, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 720 720"
@@ -7,7 +7,7 @@ const Svg5IgualdadeDeGenero = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
-    <title>5 - IGUALDADE DE GÊNERO</title>
+    {showTitle && <title>5 - IGUALDADE DE GÊNERO</title>}
     <defs>
       <style>{".5-igualdade-de-genero_svg__cls-2{fill:#fff}"}</style>
     </defs>

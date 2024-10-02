@@ -1,5 +1,9 @@
 import * as React from "react";
-const Svg17ParceriasEMeiosDeImplementacao = ({ size = 512, ...props }) => (
+const Svg17ParceriasEMeiosDeImplementacao = ({
+  size = 512,
+  showTitle = false,
+  ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 720 720"
@@ -7,7 +11,7 @@ const Svg17ParceriasEMeiosDeImplementacao = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
-    <title>17 - PARCERIAS E MEIOS DE IMPLEMENTAÇÃO</title>
+    {showTitle && <title>17 - PARCERIAS E MEIOS DE IMPLEMENTAÇÃO</title>}
     <defs>
       <style>
         {".17-parcerias-e-meios-de-implementacao_svg__cls-2{fill:#fff}"}

@@ -1,5 +1,9 @@
 import * as React from "react";
-const Svg10ReducaoDasDesigualdades = ({ size = 512, ...props }) => (
+const Svg10ReducaoDasDesigualdades = ({
+  size = 512,
+  showTitle = false,
+  ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 720 720"
@@ -7,7 +11,7 @@ const Svg10ReducaoDasDesigualdades = ({ size = 512, ...props }) => (
     height={size}
     {...props}
   >
-    <title>10 - REDUÇÃO DAS DESIGUALDADES</title>
+    {showTitle && <title>10 - REDUÇÃO DAS DESIGUALDADES</title>}
     <path
       fill="#dd1367"
       d="M-1.08-1.08h722.16v722.16H-1.08z"
