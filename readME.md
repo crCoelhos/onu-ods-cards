@@ -31,4 +31,3 @@ const MeuComponenteExemplo = () => (
 
 export default MeuComponenteExemplo;
 ```
-
