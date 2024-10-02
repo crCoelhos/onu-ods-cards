@@ -1,5 +1,15 @@
-import * as React from "react";
-const Svg5IgualdadeDeGenero = ({ size = 512, showTitle = false, ...props }) => (
+import React, { FC, SVGProps } from "react";
+
+interface SvgProps extends SVGProps<SVGSVGElement> {
+  size?: number;
+  showTitle?: boolean;
+}
+
+const Svg5IgualdadeDeGenero: FC<SvgProps> = ({
+  size = 512,
+  showTitle = false,
+  ...props
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 720 720"

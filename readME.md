@@ -18,6 +18,22 @@ yarn install un-ods-cards
 
 ## Uso
 
-Para usar o ícone em seu componente, você pode fazer o seguinte:
+Para usar o ícone em seu componente, você pode fazer a declaração no modelo convencional:
 
-<OdsIcon1 size={128} />
+```tsx
+import { OdsIcon1 } from "un-ods-cards";
+
+const MyComponent = () => (
+  <div>
+    <OdsIcon1 />
+  </div>
+);
+
+export default MyComponent;
+```
+
+```
+
+code <OdsIcon1 />
+
+```
