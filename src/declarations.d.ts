@@ -1,19 +1,19 @@
-declare module "un-ods-icons" {
-  export const OdsIcon1: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon2: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon3: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon4: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon5: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon6: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon7: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon8: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon9: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon10: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon11: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon12: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon13: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon14: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon15: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon16: React.FC<React.SVGProps<SVGSVGElement>>;
-  export const OdsIcon17: React.FC<React.SVGProps<SVGSVGElement>>;
+declare module "un-ods-cards" {
+  export const OdsCard1: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard2: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard3: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard4: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard5: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard6: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard7: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard8: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard9: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard10: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard11: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard12: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard13: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard14: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard15: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard16: React.FC<React.SVGProps<SVGSVGElement>>;
+  export const OdsCard17: React.FC<React.SVGProps<SVGSVGElement>>;
 }
