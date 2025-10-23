@@ -2,6 +2,9 @@
 
 Esta é uma biblioteca de ícones para os Objetivos de Desenvolvimento Sustentável (ODS) que pode ser facilmente utilizada em projetos React. Os cards estão disponíveis como componentes SVG, permitindo fácil personalização e escalabilidade.
 
+
+https://www.npmjs.com/package/onu-ods-cards
+
 ## Instalação
 
 Para instalar a biblioteca, use um package manager como npm ou yarn:
