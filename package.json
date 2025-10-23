@@ -1,13 +1,37 @@
 {
   "name": "onu-ods-cards",
   "keywords": [
-    "ods",
     "onu",
-    "react",
+    "ods",
+    "objetivos de desenvolvimento sustentável",
+    "cartas ods",
+    "cartas onu",
+    "cartas sustentáveis",
+    "desenvolvimento sustentável",
     "sustentabilidade",
-    "cards",
-    "svg",
-    "sustainability"
+    "agenda 2030",
+    "componentes react",
+    "componente react",
+    "biblioteca react",
+    "ui",
+    "interface",
+    "design system",
+    "kit de componentes",
+    "front-end",
+    "javascript",
+    "react",
+    "react component",
+    "ui component",
+    "sustainable development goals",
+    "sdgs",
+    "un goals",
+    "sustainability cards",
+    "onu cards",
+    "ods cards",
+    "education",
+    "visualização ods",
+    "visualization",
+    "npm package"
   ],
   "version": "1.0.1",
   "main": "dist/index.js",
@@ -18,7 +42,7 @@
     "build-icons": "svgr --icon --replace-attr-values '#000=currentColor' src/icons --out-dir src/components",
     "tsc": "tsc"
   },
-  "author": "",
+  "author": "Christopher Ric Coelho Saar",
   "license": "ISC",
   "description": "",
   "dependencies": {
@@ -48,6 +72,7 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "package.json"
   ]
 }
